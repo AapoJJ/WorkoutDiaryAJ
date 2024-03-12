@@ -1,4 +1,4 @@
-// AddExerciseScreen.js
+
 import React, { useState } from 'react';
 import { View, Text } from 'react-native';
 import { TextInput, Button } from 'react-native-paper';
@@ -27,7 +27,7 @@ const AddExerciseScreen = ({ navigation }) => {
   };
 
   const handleAddExercise = () => {
-    // Validate input
+
     if (!sportType || !distance || !duration || !date) {
       alert('Please fill in all fields');
       return;
@@ -41,7 +41,7 @@ const AddExerciseScreen = ({ navigation }) => {
       return;
     }
 
-    // Add exercise
+    
     addExercise({ sportType, distance: parseFloat(distance), duration: parseFloat(duration), date });
     setSportType('');
     setDistance('');

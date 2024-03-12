@@ -1,4 +1,4 @@
-// ExerciseHistoryScreen.js
+
 import React from 'react';
 import { View, Text, FlatList } from 'react-native';
 import { useExerciseContext } from './ExerciseContext';

@@ -1,4 +1,4 @@
-// SettingsScreen.js
+
 import React, { useState } from 'react';
 import { View, Text } from 'react-native';
 import { RadioButton } from 'react-native-paper';
